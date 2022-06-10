@@ -1,12 +1,29 @@
 {
   "store.home": {
     "children": [
-      "slider-layout#brands",
-      "slider-layout#cards",
-      "flex-layout.row"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
-  "flex-layout.row": {
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "rich-text#desktop-home",
+      "image#desktop",
+      "slider-layout#brands",
+      "slider-layout#cards",
+      "flex-layout.row#home"
+    ]
+  },
+  "responsive-layout.mobile#mobile": {
+    "children": [
+      "rich-text#mobile-home",
+      "image#mobile",
+      "slider-layout#brands",
+      "slider-layout#cards",
+      "flex-layout.row#home"
+    ]
+  },
+  "flex-layout.row#home": {
     "children": [
       "info-card#rethink",
       "flex-layout.col"
