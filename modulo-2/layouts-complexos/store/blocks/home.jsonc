@@ -1,6 +1,8 @@
 {
   "store.home": {
     "children": [
+      "slider-layout#brands",
+      "slider-layout#cards",
       "flex-layout.row"
     ]
   },

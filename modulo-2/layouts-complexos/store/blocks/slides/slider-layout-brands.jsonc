@@ -1,0 +1,66 @@
+{
+  "slider-layout#brands": {
+    "children": [
+      "image#brand-1",
+      "image#brand-2",
+      "image#brand-3",
+      "image#brand-4",
+      "image#brand-5",
+      "image#brand-6"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "image#brand-1": {
+    "props": {
+      "alt": "Falcão",
+      "title": "Falcão",
+      "link": "/",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png"
+    }
+  },
+  "image#brand-2": {
+    "props": {
+      "alt": "Falcão",
+      "title": "Falcão",
+      "link": "/",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png"
+    }
+  },
+  "image#brand-3": {
+    "props": {
+      "alt": "Falcão",
+      "title": "Falcão",
+      "link": "/",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png"
+    }
+  },
+  "image#brand-4": {
+    "props": {
+      "alt": "Falcão",
+      "title": "Falcão",
+      "link": "/",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png"
+    }
+  },
+  "image#brand-5": {
+    "props": {
+      "alt": "Falcão",
+      "title": "Falcão",
+      "link": "/",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png"
+    }
+  },
+  "image#brand-6": {
+    "props": {
+      "alt": "Falcão",
+      "title": "Falcão",
+      "link": "/",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png"
+    }
+  }
+}
