@@ -1,0 +1,62 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "children": [
+      "category-menu",
+      "rich-text#logo",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "sticky": true
+    }
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "sortSubcategories": "name",
+      "mobileMode": true
+    }
+  },
+  "rich-text#logo": {
+    "props": {
+      "text": "**Flat**Flat**.**"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "autoFocus": true,
+      "maxWidth": "60%",
+      "compactMode": false
+    }
+  },
+  "login": {
+    "props": {
+      "optionsTitle": "Como deseja entrar?",
+      "emailAndPasswordTitle": "Entrar",
+      "emailPlaceholder": "Qual seu email?",
+      "passwordPlaceholder": "Qual sua senha?",
+      "accessCodeTitle": "Qual email mandaremos o código?",
+      "acessCodePlaceholder": "Qual seu email?",
+      "showPasswordVerificationIntoTooltip": false,
+      "iconLabel": "login",
+      "showIconProfile": true
+    }
+  }
+}

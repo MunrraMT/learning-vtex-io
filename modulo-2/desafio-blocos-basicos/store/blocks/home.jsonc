@@ -1,0 +1,42 @@
+{
+  "store.home": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": [
+      "search-result-layout.customQuery#home"
+    ]
+  },
+  "search-result-layout.customQuery#home": {
+    "blocks": [
+      "search-result-layout.desktop"
+    ],
+    "props": {
+      "querySchema": {
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "filter-navigator.v3",
+      "flex-layout.row#control-bar",
+      "flex-layout.row#filter-products",
+      "search-fetch-more"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#control-bar": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#filter-products": {
+    "children": [
+      "search-content"
+    ]
+  }
+}
