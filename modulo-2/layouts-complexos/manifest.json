@@ -1,0 +1,26 @@
+{
+  "vendor": "agencian1",
+  "name": "layouts-complexos",
+  "version": "1.0.1",
+  "builders": {
+    "styles": "2.x",
+    "store": "0.x",
+    "docs": "0.x"
+  },
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.store-sitemap": "2.x",
+    "vtex.condition-layout": "1.x",
+    "vtex.store-link": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.product-price": "1.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.responsive-layout": "0.x",
+    "vtex.slider-layout": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
