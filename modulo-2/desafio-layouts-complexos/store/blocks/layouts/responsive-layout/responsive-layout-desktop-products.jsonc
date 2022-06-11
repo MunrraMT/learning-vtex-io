@@ -1,0 +1,47 @@
+{
+  "responsive-layout.desktop#products": {
+    "children": [
+      "flex-layout.row#product-info",
+      "condition-layout.product#books-only"
+    ]
+  },
+  "flex-layout.row#product-info": {
+    "children": [
+      "product-images",
+      "flex-layout.col#product-detail"
+    ]
+  },
+  "flex-layout.col#product-detail": {
+    "children": [
+      "product-name",
+      "flex-layout.row#product-price",
+      "sku-selector",
+      "add-to-cart-button",
+      "shipping-simulator",
+      "share"
+    ]
+  },
+  "flex-layout.row#product-price": {
+    "children": [
+      "product-list-price",
+      "product-selling-price"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "colGap": 4
+    }
+  },
+  "condition-layout.product#books-only": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": "61"
+          }
+        }
+      ],
+      "Then": "tab-layout#products"
+    }
+  }
+}

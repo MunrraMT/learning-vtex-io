@@ -1,0 +1,61 @@
+{
+  "tab-layout#products": {
+    "children": [
+      "tab-list#products",
+      "tab-content#products"
+    ]
+  },
+  "tab-list#products": {
+    "children": [
+      "tab-list.item#product-1",
+      "tab-list.item#product-2"
+    ]
+  },
+  "tab-list.item#product-1": {
+    "props": {
+      "tabId": "tab-product-1",
+      "label": "Tab 01",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#product-2": {
+    "props": {
+      "tabId": "tab-product-2",
+      "label": "Tab 02"
+    }
+  },
+  "tab-content#products": {
+    "children": [
+      "tab-content.item#product-1",
+      "tab-content.item#product-2"
+    ]
+  },
+  "tab-content.item#product-1": {
+    "children": [
+      "rich-text#tab-1"
+    ],
+    "props": {
+      "tabId": "tab-product-1"
+    }
+  },
+  "tab-content.item#product-2": {
+    "children": [
+      "rich-text#tab-2"
+    ],
+    "props": {
+      "tabId": "tab-product-2"
+    }
+  },
+  "rich-text#tab-1": {
+    "props": {
+      "text": "Tab 01",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#tab-2": {
+    "props": {
+      "text": "Tab 02",
+      "textPosition": "CENTER"
+    }
+  }
+}
