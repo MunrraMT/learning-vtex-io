@@ -1,0 +1,14 @@
+.container.container--com-blockclass {
+  background-color: #0000ff;
+  color: #ffffff;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ff7300;
+  color: #ff0000;
+  margin: 10px 0;
+}

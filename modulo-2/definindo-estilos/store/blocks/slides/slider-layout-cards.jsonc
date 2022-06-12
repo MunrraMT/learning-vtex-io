@@ -1,0 +1,100 @@
+{
+  "slider-layout#cards": {
+    "children": [
+      "info-card#1",
+      "info-card#2",
+      "info-card#3",
+      "info-card#4",
+      "info-card#5",
+      "info-card#6",
+      "info-card#7",
+      "info-card#8"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "navigationStep": 1,
+      "infinite": false,
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showPaginationDots": "never"
+    }
+  },
+  "info-card#1": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday 1",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "info-card#2": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday 2",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "info-card#3": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday 3",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "info-card#4": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday 4",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "info-card#5": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday 5",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "info-card#6": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday 6",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "info-card#7": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday 7",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  },
+  "info-card#8": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFullModeStyle": true,
+      "headline": "Black Friday 8",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
+    }
+  }
+}

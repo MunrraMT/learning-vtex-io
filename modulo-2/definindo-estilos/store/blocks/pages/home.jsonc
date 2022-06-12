@@ -1,0 +1,88 @@
+{
+  "store.home": {
+    "children": [
+      "rich-text#sem-class",
+      "rich-text#com-class",
+      "rich-text#sem-class",
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
+    ]
+  },
+  "rich-text#com-class": {
+    "props": {
+      "text": "Com blockclass",
+      "blockClass": [
+        "com-blockclass"
+      ]
+    }
+  },
+  "rich-text#sem-class": {
+    "props": {
+      "text": "Sem blockclass"
+    }
+  },
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "stack-layout#cta",
+      "list-context.product-list",
+      "modal-trigger#first",
+      "tab-layout#desktop-home",
+      "rich-text#desktop-home",
+      "image#desktop",
+      "slider-layout#brands",
+      "slider-layout#cards",
+      "flex-layout.row#home"
+    ]
+  },
+  "modal-trigger#first": {
+    "children": [
+      "rich-text#trigger",
+      "modal-layout#first"
+    ]
+  },
+  "rich-text#trigger": {
+    "props": {
+      "text": "CLICK ME"
+    }
+  },
+  "modal-layout#first": {
+    "children": [
+      "rich-text#hello"
+    ]
+  },
+  "rich-text#hello": {
+    "props": {
+      "text": "Hello"
+    }
+  },
+  "responsive-layout.mobile#mobile": {
+    "children": [
+      "rich-text#mobile-home",
+      "image#mobile",
+      "slider-layout#brands",
+      "slider-layout#cards",
+      "flex-layout.row#home"
+    ]
+  },
+  "flex-layout.row#home": {
+    "children": [
+      "info-card#rethink",
+      "flex-layout.col"
+    ]
+  },
+  "info-card#rethink": {
+    "props": {
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
+      "isFullModeStyle": true,
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
+      "textPosition": "center"
+    }
+  },
+  "flex-layout.col": {
+    "children": [
+      "image#electronics",
+      "image#major-appliance"
+    ]
+  }
+}
