@@ -2,5 +2,9 @@
   "store.custom#about-us": {
     "path": "/about-us",
     "title": "About US"
+  },
+  "store.custom#landing": {
+    "path": "/landing",
+    "title": "Landing"
   }
 }
